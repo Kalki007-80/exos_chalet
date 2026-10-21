@@ -226,6 +226,4 @@ Screenshots are not committed to this repository pending redaction review. See:
 
 ---
 
-## Contact
 
-Maintainer: `<MAINTAINER>`
