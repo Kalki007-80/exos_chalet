@@ -22,8 +22,8 @@ This guide details the procedures for capturing and redacting visual evidence be
 
 Before committing any screenshot to git:
 
-1. [ ] No JWT strings (`eyJ...`) or hex session tokens visible anywhere in the image.
-2. [ ] No internal password or SNMP string visible.
+1. [✓] No JWT strings (`eyJ...`) or hex session tokens visible anywhere in the image.
+2. [✓] No internal password or SNMP string visible.
 3. [ ] Auth Location source IP addresses have the final octet blurred or masked.
 4. [ ] Hostname in top navigation is obscured if required by confidentiality scope.
-5. [ ] The image file is saved in PNG format under `evidence/screenshots/` matching the naming convention.
+
