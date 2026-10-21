@@ -1,0 +1,21 @@
+name: Redact Check
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  redact-check:
+    name: Check for unredacted sensitive data
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run redact-check script
+        run: ./tools/redact-check.sh

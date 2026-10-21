@@ -1,0 +1,15 @@
+# Evidence: GET /terminal/_static/
+Finding ID:      F-08
+Collected:       2026-10-20T12:58+0000
+Collector:       ka1k1
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          curl -sS -D - http://10.1.58.1/terminal/_static/
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      session_id redacted
+Notes:           No traversal attempted. Exposure established by handler reachability + firmware version.
+────────────────────────────────────────────────────────────────────
+HTTP/1.1 200 OK
+Date: Tue, 20 Oct 2026 12:58:36 GMT
+Content-Length: 0
+Content-Type: text/html;charset=utf-8
+Set-Cookie: session_id=<REDACTED>; expires=...; Path=/

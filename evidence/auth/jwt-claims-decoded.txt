@@ -1,0 +1,20 @@
+# Evidence: User JWT decoded claims
+Finding ID:      F-16
+Collected:       2026-10-20T13:50+0000
+Collector:       ka1k1
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          browser DevTools — document.cookie
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      username, exp, iat, signature all removed
+Notes:           Signature value never captured in this repository.
+────────────────────────────────────────────────────────────────────
+Header:
+  {"alg":"HS256","typ":"JWT"}   (typ implied; exp/iat redacted)
+
+Payload:
+  {"username":"<REDACTED>","access_level":"user"}
+
+Signature: <REDACTED>
+
+Token length: 166 characters
+Note: identical JWT value present in both x-auth-token and session cookies.

@@ -1,0 +1,11 @@
+# Evidence: <title>
+Finding ID:      F-XX
+Collected:       <ISO-8601 with tz>
+Collector:       <name>
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          <command>
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      <list or "none">
+Notes:           <optional>
+────────────────────────────────────────────────────────────────────
+<raw output>

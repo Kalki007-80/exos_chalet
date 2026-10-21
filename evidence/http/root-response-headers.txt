@@ -1,0 +1,15 @@
+# Evidence: GET / unauthenticated headers
+Finding ID:      F-03,F-04,F-05
+Collected:       2026-10-20T12:55+0000
+Collector:       ka1k1
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          curl -sS -D - http://10.1.58.1/ -o /dev/null
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      session_id redacted
+Notes:           
+────────────────────────────────────────────────────────────────────
+HTTP/1.1 200 OK
+Date: Tue, 20 Oct 2026 12:55:07 GMT
+Content-Length: 18910
+Content-Type: text/html;charset=utf-8
+Set-Cookie: session_id=<REDACTED>; expires=...; Path=/

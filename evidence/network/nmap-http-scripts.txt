@@ -1,0 +1,21 @@
+# Evidence: Nmap HTTP scripts
+Finding ID:      F-03,F-04,F-05
+Collected:       2026-10-20T21:39+0530
+Collector:       ka1k1
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          nmap -p80 --script http-headers,http-title,http-methods 10.1.58.1
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      session_id values removed
+Notes:           
+────────────────────────────────────────────────────────────────────
+PORT   STATE SERVICE
+80/tcp open  http
+| http-methods:
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: {{pageTitle}}
+| http-headers:
+|   Date: Tue, 20 Oct 2026 12:55:24 GMT
+|   Content-Length: 18910
+|   Content-Type: text/html;charset=utf-8
+|   Set-Cookie: session_id=<REDACTED>; expires=...; Path=/
+|   Connection: close

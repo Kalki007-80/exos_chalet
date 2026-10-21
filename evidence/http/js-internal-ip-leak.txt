@@ -1,0 +1,14 @@
+# Evidence: Internal IPs hardcoded in chalet.min.js
+Finding ID:      F-09
+Collected:       2026-10-20T12:58+0000
+Collector:       ka1k1
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          curl -sS http://10.1.58.1/js/chalet.min.js | grep -Eo '([0-9]+\.){3}[0-9]+'
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      none — disclosed by target
+Notes:           
+────────────────────────────────────────────────────────────────────
+10.127.5.29
+10.68.5.57
+10.68.69.188
+10.68.69.189

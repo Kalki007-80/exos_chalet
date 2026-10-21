@@ -1,0 +1,11 @@
+# Evidence: show-iparp
+Finding ID:      N-01
+Collected:       PENDING
+Collector:       ka1k1
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          EXOS CLI (user) — not yet collected
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      N/A
+Notes:           Pending collection in follow-up test window.
+────────────────────────────────────────────────────────────────────
+[PENDING — see N-01 finding for collection instructions]

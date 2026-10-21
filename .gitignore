@@ -1,0 +1,21 @@
+# Device config and secrets — never commit
+*.cfg
+*.bak
+*.codexbak*
+*.pem
+*.key
+*.crt
+*.env
+secrets*
+jwt*
+*token*
+cookie*
+id_rsa*
+.DS_Store
+
+# Logs (evidence/*.txt is tracked)
+*.log
+
+# Preserve evidence
+!evidence/**/*.txt
+!evidence/**/*.md

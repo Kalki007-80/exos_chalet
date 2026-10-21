@@ -1,0 +1,15 @@
+# Evidence: Nmap service/version scan
+Finding ID:      F-01,F-02,F-03
+Collected:       2026-10-20T21:37+0530
+Collector:       ka1k1
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          nmap -sV -T4 10.1.58.1
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      MAC address partially masked
+Notes:           Initial discovery
+────────────────────────────────────────────────────────────────────
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet
+80/tcp open  http    CherryPy wsgiserver
+
+MAC Address: 00:04:96:XX:XX:XX (Extreme Networks Headquarters)

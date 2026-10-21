@@ -1,0 +1,25 @@
+SECURITY ASSESSMENT DOCUMENTATION LICENSE
+
+Copyright (c) 2026 <OWNER>. All rights reserved.
+
+This repository contains security assessment documentation for the device
+identified within. It is provided solely for the purpose of remediation
+tracking and authorized review by the target system owner and designated
+parties.
+
+RESTRICTIONS:
+1. No part of this documentation — including findings, evidence files,
+   screenshots, or analysis — may be reproduced, distributed, transmitted,
+   or published in any form or by any means without the prior written
+   permission of the copyright holder.
+2. This documentation may not be used to attack, probe, or enumerate any
+   device or network without explicit written authorization from the device
+   owner.
+3. This is NOT an open-source license. No open-source rights are granted.
+
+DISCLAIMER:
+This documentation is provided "as is" for informational and remediation
+purposes only. The copyright holder makes no warranties, express or implied,
+regarding accuracy, completeness, or fitness for a particular purpose.
+
+For permissions and inquiries, contact: <OWNER>

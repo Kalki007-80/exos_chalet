@@ -1,0 +1,14 @@
+# Evidence: show session
+Finding ID:      F-13,F-15
+Collected:       2026-10-20T21:59+0530
+Collector:       ka1k1
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          EXOS CLI (user)
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      source IP last octet masked
+Notes:           
+────────────────────────────────────────────────────────────────────
+    #     Login Time               User  Type   Auth  Auth Location
+====================================================================
+*901      Tue Oct 20 21:54:01 2026 user  telnet local dis   10.1.58.XXX
+ 902      Tue Oct 20 21:55:05 2026 user  xml    local dis   10.1.58.XXX

@@ -1,0 +1,36 @@
+# Evidence: show switch
+Finding ID:      F-01
+Collected:       2026-10-20T21:59+0530
+Collector:       ka1k1
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          EXOS CLI (user)
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      system MAC partially masked
+Notes:           
+────────────────────────────────────────────────────────────────────
+SysName:          POWERHOUSE-1-CORE
+SysLocation:      POWERHOUSE-1-CORE
+SysContact:       support@extremenetworks.com, +1 888 257 3000
+System MAC:       00:04:96:XX:XX:XX
+System Type:      X460G2-48x-10G4
+
+Current Time:     Tue Oct 20 21:59:16 2026
+Timezone:         [Auto DST Disabled] GMT Offset: 530 minutes, name is IST.
+Boot Time:        Sat Jun  6 21:33:06 2026
+Boot Count:       29
+System UpTime:    136 days 26 minutes 10 seconds
+
+Current State:    OPERATIONAL
+Image Selected:   primary
+Image Booted:     primary
+Primary ver:      22.7.1.2
+                  patch1-24
+Secondary ver:    21.1.5.2
+                  patch1-5
+
+Config Selected:  primary.cfg
+Config Booted:    primary.cfg
+Config Automatic: NONE (Disabled)
+
+primary.cfg       Created by ExtremeXOS version 22.7.1.2
+                  1219707 bytes saved on Wed Sep 23 12:32:02 2026

@@ -1,0 +1,19 @@
+# Evidence: show version
+Finding ID:      F-01
+Collected:       2026-10-20T21:57+0530
+Collector:       ka1k1
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          EXOS CLI (user)
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      none
+Notes:           
+────────────────────────────────────────────────────────────────────
+Switch      : 800554-00-13 1839N-42734 Rev 13 BootROM: 1.0.2.1    IMG: 22.7.1.2
+PSU-1       : Internal PSU-1 800515-00-06 1841E-42613 Rev 06
+PSU-2       : Internal PSU-2 800515-00-06 1841E-42602 Rev 06
+
+Image   : ExtremeXOS version 22.7.1.2 22.7.1.2-patch1-24 by release-manager
+          on Tue Feb 25 15:17:20 EST 2020
+BootROM : 1.0.2.1
+Diagnostics : 5.12
+Certified Version : EXOS Linux  3.18.123, FIPS fips-ecp-2.0.16

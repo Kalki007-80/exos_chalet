@@ -1,0 +1,28 @@
+# Evidence: POST /jsonrpc — user JWT, cli() signature error
+Finding ID:      F-14,F-18
+Collected:       2026-10-20T13:53+0000
+Collector:       ka1k1
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          curl -sS -D - -X POST http://10.1.58.1/jsonrpc -H 'Content-Type: application/json' -H 'x-auth-token: <JWT-REDACTED>' --data '{"jsonrpc":"2.0","id":"1","method":"cli","params":{"command":"show version"}}'
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      JWT value removed from request line
+Notes:           JWT length verified 166 chars before send. Token now logged out.
+────────────────────────────────────────────────────────────────────
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 199
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, x-auth-token, Authorization
+Date: Tue, 20 Oct 2026 13:53:44 GMT
+
+{
+  "error": {
+    "code": 500,
+    "data": null,
+    "message": "OtherError: cli() got an unexpected keyword argument 'command'",
+    "name": "OtherError"
+  },
+  "id": "1",
+  "jsonrpc": "2.0"
+}

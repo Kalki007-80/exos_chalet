@@ -1,0 +1,20 @@
+# Evidence: POST /jsonrpc — anonymous / empty token
+Finding ID:      F-14,F-17
+Collected:       2026-10-20T13:47+0000
+Collector:       ka1k1
+Target:          10.1.58.1 (POWERHOUSE-1-CORE)
+Method:          curl -sS -D - -X POST http://10.1.58.1/jsonrpc -H 'Content-Type: application/json' -H 'x-auth-token: <EMPTY>' --data '{"jsonrpc":"2.0","id":"1","method":"cli","params":{"command":"show version"}}'
+Authorization:   <AUTH-REF-REDACTED>
+Redactions:      no credential sent
+Notes:           Positive control: API rejects anonymous calls
+────────────────────────────────────────────────────────────────────
+HTTP/1.1 401 Authentication Required
+Set-Cookie: x-auth-token=; Expires=0;
+Set-Cookie: session=; Expires=0;
+Content-Type: application/json
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, x-auth-token, Authorization
+Transfer-Encoding: chunked
+
+{"jsonrpc": "2.0", "id": "1", "error": {"message": "InvalidCredentialsError: 401 UNAUTHORIZED", "code": 401, "data": null, "name": "InvalidCredentialsError"}}
