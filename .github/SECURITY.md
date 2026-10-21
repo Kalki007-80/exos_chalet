@@ -16,8 +16,6 @@ If you identify an error in the assessment documentation, an incorrectly attribu
 
 > **Do not test the target device (`POWERHOUSE-1-CORE`, 10.1.58.1) or any device on its network without the device owner's explicit written authorization.**
 
-This assessment was conducted under a specific written authorization. Any independent reproduction of the testing described here without equivalent written authorization may be illegal under applicable computer fraud and abuse laws.
-
 ## Out of Scope
 
 The following activities are explicitly out of scope for any follow-up testing without renewed authorization:
